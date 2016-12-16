@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		865FAE3F1E0464AE00094208 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE3E1E0464AE00094208 /* AppDelegate.swift */; };
+		865FAE411E0464AE00094208 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE401E0464AE00094208 /* ViewController.swift */; };
+		865FAE441E0464AE00094208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865FAE421E0464AE00094208 /* Main.storyboard */; };
+		865FAE461E0464AE00094208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 865FAE451E0464AE00094208 /* Assets.xcassets */; };
+		865FAE491E0464AE00094208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865FAE471E0464AE00094208 /* LaunchScreen.storyboard */; };
+		865FAE541E0464AE00094208 /* frederic_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE531E0464AE00094208 /* frederic_clientTests.swift */; };
+		865FAE5F1E0464AE00094208 /* frederic_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE5E1E0464AE00094208 /* frederic_clientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		865FAE501E0464AE00094208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865FAE331E0464AE00094208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865FAE3A1E0464AE00094208;
+			remoteInfo = "frederic-client";
+		};
+		865FAE5B1E0464AE00094208 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 865FAE331E0464AE00094208 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 865FAE3A1E0464AE00094208;
+			remoteInfo = "frederic-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		865FAE3B1E0464AE00094208 /* frederic-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "frederic-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865FAE3E1E0464AE00094208 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		865FAE401E0464AE00094208 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		865FAE431E0464AE00094208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		865FAE451E0464AE00094208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		865FAE481E0464AE00094208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		865FAE4A1E0464AE00094208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865FAE4F1E0464AE00094208 /* frederic-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frederic-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865FAE531E0464AE00094208 /* frederic_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frederic_clientTests.swift; sourceTree = "<group>"; };
+		865FAE551E0464AE00094208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865FAE5A1E0464AE00094208 /* frederic-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frederic-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		865FAE5E1E0464AE00094208 /* frederic_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frederic_clientUITests.swift; sourceTree = "<group>"; };
+		865FAE601E0464AE00094208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		865FAE381E0464AE00094208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE4C1E0464AE00094208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE571E0464AE00094208 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		865FAE321E0464AE00094208 = {
+			isa = PBXGroup;
+			children = (
+				865FAE3D1E0464AE00094208 /* frederic-client */,
+				865FAE521E0464AE00094208 /* frederic-clientTests */,
+				865FAE5D1E0464AE00094208 /* frederic-clientUITests */,
+				865FAE3C1E0464AE00094208 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		865FAE3C1E0464AE00094208 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				865FAE3B1E0464AE00094208 /* frederic-client.app */,
+				865FAE4F1E0464AE00094208 /* frederic-clientTests.xctest */,
+				865FAE5A1E0464AE00094208 /* frederic-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		865FAE3D1E0464AE00094208 /* frederic-client */ = {
+			isa = PBXGroup;
+			children = (
+				865FAE3E1E0464AE00094208 /* AppDelegate.swift */,
+				865FAE401E0464AE00094208 /* ViewController.swift */,
+				865FAE421E0464AE00094208 /* Main.storyboard */,
+				865FAE451E0464AE00094208 /* Assets.xcassets */,
+				865FAE471E0464AE00094208 /* LaunchScreen.storyboard */,
+				865FAE4A1E0464AE00094208 /* Info.plist */,
+			);
+			path = "frederic-client";
+			sourceTree = "<group>";
+		};
+		865FAE521E0464AE00094208 /* frederic-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				865FAE531E0464AE00094208 /* frederic_clientTests.swift */,
+				865FAE551E0464AE00094208 /* Info.plist */,
+			);
+			path = "frederic-clientTests";
+			sourceTree = "<group>";
+		};
+		865FAE5D1E0464AE00094208 /* frederic-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				865FAE5E1E0464AE00094208 /* frederic_clientUITests.swift */,
+				865FAE601E0464AE00094208 /* Info.plist */,
+			);
+			path = "frederic-clientUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		865FAE3A1E0464AE00094208 /* frederic-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865FAE631E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-client" */;
+			buildPhases = (
+				865FAE371E0464AE00094208 /* Sources */,
+				865FAE381E0464AE00094208 /* Frameworks */,
+				865FAE391E0464AE00094208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "frederic-client";
+			productName = "frederic-client";
+			productReference = 865FAE3B1E0464AE00094208 /* frederic-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		865FAE4E1E0464AE00094208 /* frederic-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865FAE661E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-clientTests" */;
+			buildPhases = (
+				865FAE4B1E0464AE00094208 /* Sources */,
+				865FAE4C1E0464AE00094208 /* Frameworks */,
+				865FAE4D1E0464AE00094208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865FAE511E0464AE00094208 /* PBXTargetDependency */,
+			);
+			name = "frederic-clientTests";
+			productName = "frederic-clientTests";
+			productReference = 865FAE4F1E0464AE00094208 /* frederic-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		865FAE591E0464AE00094208 /* frederic-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 865FAE691E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-clientUITests" */;
+			buildPhases = (
+				865FAE561E0464AE00094208 /* Sources */,
+				865FAE571E0464AE00094208 /* Frameworks */,
+				865FAE581E0464AE00094208 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				865FAE5C1E0464AE00094208 /* PBXTargetDependency */,
+			);
+			name = "frederic-clientUITests";
+			productName = "frederic-clientUITests";
+			productReference = 865FAE5A1E0464AE00094208 /* frederic-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		865FAE331E0464AE00094208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jim Hopp";
+				TargetAttributes = {
+					865FAE3A1E0464AE00094208 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = D39ZYC2MR4;
+						ProvisioningStyle = Automatic;
+					};
+					865FAE4E1E0464AE00094208 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = D39ZYC2MR4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 865FAE3A1E0464AE00094208;
+					};
+					865FAE591E0464AE00094208 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = D39ZYC2MR4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 865FAE3A1E0464AE00094208;
+					};
+				};
+			};
+			buildConfigurationList = 865FAE361E0464AE00094208 /* Build configuration list for PBXProject "frederic-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 865FAE321E0464AE00094208;
+			productRefGroup = 865FAE3C1E0464AE00094208 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				865FAE3A1E0464AE00094208 /* frederic-client */,
+				865FAE4E1E0464AE00094208 /* frederic-clientTests */,
+				865FAE591E0464AE00094208 /* frederic-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		865FAE391E0464AE00094208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FAE491E0464AE00094208 /* LaunchScreen.storyboard in Resources */,
+				865FAE461E0464AE00094208 /* Assets.xcassets in Resources */,
+				865FAE441E0464AE00094208 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE4D1E0464AE00094208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE581E0464AE00094208 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		865FAE371E0464AE00094208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FAE411E0464AE00094208 /* ViewController.swift in Sources */,
+				865FAE3F1E0464AE00094208 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE4B1E0464AE00094208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FAE541E0464AE00094208 /* frederic_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		865FAE561E0464AE00094208 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				865FAE5F1E0464AE00094208 /* frederic_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		865FAE511E0464AE00094208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865FAE3A1E0464AE00094208 /* frederic-client */;
+			targetProxy = 865FAE501E0464AE00094208 /* PBXContainerItemProxy */;
+		};
+		865FAE5C1E0464AE00094208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 865FAE3A1E0464AE00094208 /* frederic-client */;
+			targetProxy = 865FAE5B1E0464AE00094208 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		865FAE421E0464AE00094208 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865FAE431E0464AE00094208 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		865FAE471E0464AE00094208 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				865FAE481E0464AE00094208 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		865FAE611E0464AE00094208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		865FAE621E0464AE00094208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		865FAE641E0464AE00094208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		865FAE651E0464AE00094208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		865FAE671E0464AE00094208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frederic-client.app/frederic-client";
+			};
+			name = Debug;
+		};
+		865FAE681E0464AE00094208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/frederic-client.app/frederic-client";
+			};
+			name = Release;
+		};
+		865FAE6A1E0464AE00094208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "frederic-client";
+			};
+			name = Debug;
+		};
+		865FAE6B1E0464AE00094208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D39ZYC2MR4;
+				INFOPLIST_FILE = "frederic-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.jimhopp.frederic-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "frederic-client";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		865FAE361E0464AE00094208 /* Build configuration list for PBXProject "frederic-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865FAE611E0464AE00094208 /* Debug */,
+				865FAE621E0464AE00094208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		865FAE631E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865FAE641E0464AE00094208 /* Debug */,
+				865FAE651E0464AE00094208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		865FAE661E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865FAE671E0464AE00094208 /* Debug */,
+				865FAE681E0464AE00094208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		865FAE691E0464AE00094208 /* Build configuration list for PBXNativeTarget "frederic-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				865FAE6A1E0464AE00094208 /* Debug */,
+				865FAE6B1E0464AE00094208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 865FAE331E0464AE00094208 /* Project object */;
+}
