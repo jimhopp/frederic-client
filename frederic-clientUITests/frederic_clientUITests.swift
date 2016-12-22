@@ -28,9 +28,22 @@ class frederic_clientUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testSelectable() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let tablesQuery = XCUIApplication().tables
+        tablesQuery.staticTexts["baggins, frodo"].tap()
+        tablesQuery.staticTexts["wolf, thomas"].tap()
+        
     }
-    
+    func testAllData() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let tablesQuery = XCUIApplication().tables
+        //TODO: get actual client count, perhaps when we mock data source
+        XCTAssertEqual(tablesQuery.cells.count, 9, "cells count does not match expected clients count")
+        
+    }
 }

@@ -10,6 +10,7 @@ import XCTest
 @testable import frederic_client
 
 class frederic_clientTests: XCTestCase {
+    let rootTVC = RootTableViewController()
     
     override func setUp() {
         super.setUp()
@@ -21,9 +22,23 @@ class frederic_clientTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testSingleton() {
+        XCTAssertEqual(ClientDataSource.getClientDataSource(rootTVC.tableView!),
+                       ClientDataSource.getClientDataSource(rootTVC.tableView!),
+                       "not a singleton")
+    }
+    
+    func testNumSections() {
+        
+        XCTAssertEqual(1, ClientDataSource.getClientDataSource(rootTVC.tableView!).numberOfSections(in: UITableView()), "wrong number of sections")
+        
+    }
+    
+    func testNumRows() {
+        let clientDS = ClientDataSource.getClientDataSource(rootTVC.tableView!)
+        XCTAssertEqual(clientDS.clients.count,
+                       clientDS.tableView(rootTVC.tableView!, numberOfRowsInSection: 1),
+                       "wrong number of rows")
     }
     
     func testPerformanceExample() {

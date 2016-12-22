@@ -14,6 +14,15 @@
 		865FAE491E0464AE00094208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 865FAE471E0464AE00094208 /* LaunchScreen.storyboard */; };
 		865FAE541E0464AE00094208 /* frederic_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE531E0464AE00094208 /* frederic_clientTests.swift */; };
 		865FAE5F1E0464AE00094208 /* frederic_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAE5E1E0464AE00094208 /* frederic_clientUITests.swift */; };
+		865FAEF41E0ACCC900094208 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEF21E0ACCC900094208 /* RootTableViewController.swift */; };
+		865FAEF51E0ACCC900094208 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEF21E0ACCC900094208 /* RootTableViewController.swift */; };
+		865FAEF61E0ACCC900094208 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEF21E0ACCC900094208 /* RootTableViewController.swift */; };
+		865FAEF71E0ACCC900094208 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865FAEF31E0ACCC900094208 /* RootTableViewController.xib */; };
+		865FAEF81E0ACCC900094208 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865FAEF31E0ACCC900094208 /* RootTableViewController.xib */; };
+		865FAEF91E0ACCC900094208 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 865FAEF31E0ACCC900094208 /* RootTableViewController.xib */; };
+		865FAEFB1E0ADC0700094208 /* ClientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEFA1E0ADC0700094208 /* ClientDataSource.swift */; };
+		865FAEFC1E0ADC0700094208 /* ClientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEFA1E0ADC0700094208 /* ClientDataSource.swift */; };
+		865FAEFD1E0ADC0700094208 /* ClientDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FAEFA1E0ADC0700094208 /* ClientDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,9 @@
 		865FAE5A1E0464AE00094208 /* frederic-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "frederic-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		865FAE5E1E0464AE00094208 /* frederic_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = frederic_clientUITests.swift; sourceTree = "<group>"; };
 		865FAE601E0464AE00094208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		865FAEF21E0ACCC900094208 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		865FAEF31E0ACCC900094208 /* RootTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootTableViewController.xib; sourceTree = "<group>"; };
+		865FAEFA1E0ADC0700094208 /* ClientDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 			children = (
 				865FAE3E1E0464AE00094208 /* AppDelegate.swift */,
 				865FAE401E0464AE00094208 /* ViewController.swift */,
+				865FAEF21E0ACCC900094208 /* RootTableViewController.swift */,
+				865FAEF31E0ACCC900094208 /* RootTableViewController.xib */,
+				865FAEFA1E0ADC0700094208 /* ClientDataSource.swift */,
 				865FAE421E0464AE00094208 /* Main.storyboard */,
 				865FAE451E0464AE00094208 /* Assets.xcassets */,
 				865FAE471E0464AE00094208 /* LaunchScreen.storyboard */,
@@ -238,6 +253,7 @@
 				865FAE491E0464AE00094208 /* LaunchScreen.storyboard in Resources */,
 				865FAE461E0464AE00094208 /* Assets.xcassets in Resources */,
 				865FAE441E0464AE00094208 /* Main.storyboard in Resources */,
+				865FAEF71E0ACCC900094208 /* RootTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FAEF81E0ACCC900094208 /* RootTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FAEF91E0ACCC900094208 /* RootTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				865FAE411E0464AE00094208 /* ViewController.swift in Sources */,
+				865FAEF41E0ACCC900094208 /* RootTableViewController.swift in Sources */,
 				865FAE3F1E0464AE00094208 /* AppDelegate.swift in Sources */,
+				865FAEFB1E0ADC0700094208 /* ClientDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +292,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				865FAE541E0464AE00094208 /* frederic_clientTests.swift in Sources */,
+				865FAEFC1E0ADC0700094208 /* ClientDataSource.swift in Sources */,
+				865FAEF51E0ACCC900094208 /* RootTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +302,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				865FAE5F1E0464AE00094208 /* frederic_clientUITests.swift in Sources */,
+				865FAEFD1E0ADC0700094208 /* ClientDataSource.swift in Sources */,
+				865FAEF61E0ACCC900094208 /* RootTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
