@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ClientDataSource: NSObject, UITableViewDataSource, UITableViewDelegate {
+class ClientDataSource: NSObject, UITableViewDataSource {
 
     static var singleton: ClientDataSource? = nil
     
