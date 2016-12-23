@@ -27,7 +27,13 @@ class RootTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print ("row \(indexPath) selected")
+        //TODO: initialize and push detail view controller
+        let c = ClientViewController((self.tableView!.dataSource as! ClientDataSource).clients[indexPath.row])
+        self.navigationController!.pushViewController(c, animated: true)
+    }
     // MARK: - Table view data source
 /*
     override func numberOfSections(in tableView: UITableView) -> Int {

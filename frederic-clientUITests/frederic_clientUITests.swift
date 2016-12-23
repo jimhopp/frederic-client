@@ -28,13 +28,18 @@ class frederic_clientUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testSelectable() {
+    func testDetail() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        let tablesQuery = XCUIApplication().tables
-        tablesQuery.staticTexts["baggins, frodo"].tap()
-        tablesQuery.staticTexts["wolf, thomas"].tap()
+        let clients = ["baggins, frodo", "wolf, thomas"]
+        let app = XCUIApplication()
+        let tablesQuery = app.tables
+        for c in clients {
+            tablesQuery.staticTexts[c].tap()
+            XCTAssertEqual(c, (app.textFields.element.value as? String), "did not find client name field")
+            app.navigationBars[c].children(matching: .button).matching(identifier: "Back").element(boundBy: 0).tap()
+        }
         
     }
     func testAllData() {
