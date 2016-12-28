@@ -41,6 +41,36 @@ class frederic_clientTests: XCTestCase {
                        "wrong number of rows")
     }
     
+    func testClientEquality() {
+        XCTAssertEqual(ClientDataSource.Client(firstName: "jonathan", lastName: "smith"),
+                       ClientDataSource.Client(firstName: "jonathan", lastName: "smith"),
+                       "names don't match and should")
+        XCTAssertNotEqual(ClientDataSource.Client(firstName: "jonathan", lastName: "jones"),
+                          ClientDataSource.Client(firstName: "jonathan", lastName: "smith"),
+                          "last names match and should not")
+        XCTAssertNotEqual(ClientDataSource.Client(firstName: "happy", lastName: "jones"),
+                          ClientDataSource.Client(firstName: "jonathan", lastName: "jones"),
+                          "first names match and should not")
+    }
+    
+    func testClientLessThanComparison() {
+        XCTAssertLessThan(ClientDataSource.Client(firstName: "jonathan", lastName: "jones"),
+                       ClientDataSource.Client(firstName: "jonathan", lastName: "smith"),
+                       "lhs last name !< rhs last name and should be")
+        XCTAssertLessThan(ClientDataSource.Client(firstName: "ian", lastName: "smith"),
+                          ClientDataSource.Client(firstName: "jonathan", lastName: "smith"),
+                          "lhs first name !< rhs first name and should be")
+        XCTAssertGreaterThanOrEqual(ClientDataSource.Client(firstName: "happy", lastName: "thomas"),
+                          ClientDataSource.Client(firstName: "jonathan", lastName: "jones"),
+                          "lhs last name > rhs last name but lhs first name < rhs first name")
+        XCTAssertGreaterThanOrEqual(ClientDataSource.Client(firstName: "theresa", lastName: "jones"),
+                                    ClientDataSource.Client(firstName: "jonathan", lastName: "jones"),
+                                    "lhs last name < rhs last name and should not be")
+        XCTAssertGreaterThanOrEqual(ClientDataSource.Client(firstName: "theresa", lastName: "jones"),
+                                    ClientDataSource.Client(firstName: "theresa", lastName: "jones"),
+                                    "names are equal")
+}
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measure {

@@ -31,7 +31,7 @@ class RootTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print ("row \(indexPath) selected")
         //TODO: initialize and push detail view controller
-        let c = ClientViewController((self.tableView!.dataSource as! ClientDataSource).clients[indexPath.row])
+        let c = ClientViewController((self.tableView!.dataSource as! ClientDataSource).clients[indexPath.row].sortableName)
         self.navigationController!.pushViewController(c, animated: true)
     }
     // MARK: - Table view data source
