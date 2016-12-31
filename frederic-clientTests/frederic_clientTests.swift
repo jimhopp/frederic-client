@@ -7,6 +7,8 @@
 //
 
 import XCTest
+import Google
+
 @testable import frederic_client
 
 class frederic_clientTests: XCTestCase {
