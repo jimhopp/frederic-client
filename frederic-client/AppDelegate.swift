@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         // Initialize sign-in
+        
         var configureError: NSError?
         GGLContext.sharedInstance().configureWithError(&configureError)
         assert(configureError == nil, "Error configuring Google services: \(configureError)")
@@ -26,9 +27,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         GIDSignIn.sharedInstance().delegate = self
 
         self.window = self.window ?? UIWindow()
-        self.window!.rootViewController = SigninViewController(nibName: nil, bundle: nil)
-        //self.window!.rootViewController = UINavigationController(rootViewController: SigninViewController(nibName:nil,
-        //bundle: nil))
+        
+        let args = ProcessInfo.processInfo.arguments
+        if args.contains("skip-signin") {
+            self.window!.rootViewController = UINavigationController(rootViewController: RootTableViewController())
+        } else {
+            self.window!.rootViewController = SigninViewController(nibName: nil, bundle: nil)
+        }
+        
         self.window!.backgroundColor = .white
         self.window!.makeKeyAndVisible()
         return true
